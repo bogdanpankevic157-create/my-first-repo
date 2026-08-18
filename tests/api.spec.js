@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe('API-тесты для Restful-booker', () => {
+test.describe('API-тесты для Restful-booker @api', () => {
   const baseURL = 'https://restful-booker.herokuapp.com';
   let bookingId;   
   let authToken;   

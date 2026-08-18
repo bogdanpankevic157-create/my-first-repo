@@ -6,7 +6,7 @@ class CheckoutCompletePage {
   }
 
   async getCompletionMessage() {
-    return await this.completionHeader.textContent();
+    return this.completionHeader.textContent();
   }
 }
 

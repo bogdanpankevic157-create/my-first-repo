@@ -9,7 +9,7 @@ class InventoryPage {
   }
 
   async getPageTitle() {
-    return await this.title.textContent();
+    return this.title.textContent();
   }
 
   async sortBy(option) {
@@ -22,7 +22,7 @@ class InventoryPage {
   }
 
   async getItemNames() {
-    return await this.page.locator('.inventory_item_name').allTextContents();
+    return this.page.locator('.inventory_item_name').allTextContents();
   }
 
   async addItemToCart(itemName) {

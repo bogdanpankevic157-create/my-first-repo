@@ -6,7 +6,7 @@ const { CheckoutStepOnePage } = require('../pages/CheckoutStepOnePage');
 const { CheckoutStepTwoPage } = require('../pages/CheckoutStepTwoPage');
 const { CheckoutCompletePage } = require('../pages/CheckoutCompletePage');
 
-test.describe('E2E: Полный цикл покупки', () => {
+test.describe('E2E: Полный цикл покупки @ui', () => {
 
   test('Пользователь должен успешно купить самый дорогой товар', async ({ page }) => {
     

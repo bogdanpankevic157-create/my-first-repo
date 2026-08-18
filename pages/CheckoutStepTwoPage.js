@@ -10,7 +10,7 @@ class CheckoutStepTwoPage {
   }
 
   async getTotal() {
-    return await this.totalLabel.textContent();
+    return this.totalLabel.textContent();
   }
 }
 
